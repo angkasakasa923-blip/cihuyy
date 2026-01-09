@@ -1,0 +1,67 @@
+/* Reset css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body  {
+    font-family: 'Arial',
+    sans-serif;
+    display: flex;
+    background-image: url(WhatsApp\ Image\ 2025-09-11\ at\ 21.20.27_bd1e2177.jpg);
+    background-size: cover;
+    background-position: 0;
+    background-position: center ;
+    object-fit: cover;
+}
+/* Sidebar styles */
+.sidebar {
+    background-color: #19c6dd;
+    color: white;
+    width: 250px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+.sidebar-logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.sidebar-links {
+    list-style: none;
+    width: 100%;
+    padding-left: 0;
+}
+.sidebar-links li {
+    width: 100%;
+}
+.sidebar-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px; ;
+    display: block;
+    text-align: center;
+}
+.sidebar-links a:hover {
+    background-color:
+#575757;
+}
+/* content styles */
+.content {
+    padding: 20px;
+    flex-grow: 1;
+}
+
+.paragraf {
+    margin-top: 100px;
+    margin-left: 75px;
+    width: 500px;
+    height: 300px;
+    box-shadow: 0 6px 10px black;
+    border-radius: 40px;
+    padding: 50px;
+}
